@@ -5,7 +5,8 @@ package P_Command.Comands;
  */
 public class NoCommand implements Command {
     @Override
-    public void execute() {
+    public void execute() {}
 
-    }
+    @Override
+    public void undo() {}
 }
